@@ -1,0 +1,15 @@
+header{
+    background-color: #1b2124;
+    height: 72px;
+}
+.navbar{
+    margin: 0 auto;
+    max-width:980 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+nav{
+  margin-left: auto;  
+}

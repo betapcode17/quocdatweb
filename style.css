@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    color: rgb(195, 202, 213);
+    font-weight: 400;
+    margin: 0px;
+}
+h1{
+    
+    font-size: 76px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+h2{
+    
+    font-size: 52px;
+    color: rgb(195, 191, 191);
+    font-weight: 700;
+}
+button{
+    
+    font-size: 18px;
+    background-color:rgb(46, 129, 255);
+    color: rgb(246, 249, 250);
+    font-weight: 700;
+    padding: 16px 24px;
+    border-radius:12px;
+    border: none;
+}
+.btn-light{
+    background-color: white;
+    color: blue;
+}
+.bg1{
+    background-color: #1b1f24;
+}
+.bg2{
+    background-color: #2d343f;
+}
+.container{
+    margin: 0 auto;
+    max-width: 980px;;
+}
+.link{
+    font-size: 20px;
+    font-weight: 400;
+    color: rbg(240,242,244);
+}
+section{
+    padding: 72px 24px;
+}
+.center{
+    text-align: center;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  .list-product {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    column-gap:24px;
+    row-gap:24px;
+  }
+  .card{
+    background-color:#2d343f;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .card-img{
+    width: 100%;
+  }
+  .card-title
+  {
+    font-size: 20px;
+    font-weight: 400;
+    color: aqua;
+  }
+
+
